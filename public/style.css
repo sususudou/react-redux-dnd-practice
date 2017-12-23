@@ -1,0 +1,18 @@
+.item{
+    position: relative;
+    width: 80px;
+    display:block;
+    min-height: 16px;
+    z-index: 20;
+    border:1px solid blue;
+    color:black;
+    border-radius:6px;
+}
+.item:hover {
+    color:white;
+    background-color:blue;
+}
+.dragged{
+    opacity:0.8;
+    background-color: blue;
+}
