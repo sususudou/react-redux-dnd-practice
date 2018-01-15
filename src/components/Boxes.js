@@ -18,7 +18,7 @@ export default class Boxes extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="box-wrapper">
                 {this.props.boxes.map((box)=>
                     <Box 
                      className={(box.dragged) ? "box dragged" : "box"}

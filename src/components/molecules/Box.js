@@ -4,7 +4,7 @@ import {store} from '../../reducers/index'
 import {dragEnter,dragLeave} from '../../actions/BoxesAction'
 const draggableWrapperStyle = {
     position: 'relative',
-    width: '200px',
+    width: '380px',
     minHeight: '300px',
     display: 'block',
     zIndex: 20,
@@ -25,7 +25,7 @@ export const Box = (props)=>
             display: 'inline',
         }}>{props.title}</span>
         <div className="child-list">
-            {props.items.map((item)=><Item id={item.id} key={item.id}>{item.title}</Item>)}
+            {props.items.map((item)=><Item example={item.example} id={item.id} key={item.id}>{item.title}</Item>)}
         </div>
         </div>
     </div>

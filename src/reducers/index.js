@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import App from '../components/App'
 import { createStore,combineReducers} from 'redux'
 import { Provider } from 'react-redux'
-import itemReducer from './Item'
 import boxesReducer from './boxesReducer'
 
 

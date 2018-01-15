@@ -33,7 +33,6 @@ export default function boxesReducer(state = initalState,action){
                 targetBox:{
                     id:action.box.id
                 }
-
             }
         }
         case 'DRAG_END':{
