@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Boxes from '../containers/Boxes'
+import {Button} from '../components/atoms/Button'
+import {submit} from '../utils/utils'
 class App extends Component {
   render() {
     return (
@@ -19,9 +21,13 @@ class App extends Component {
           },{
             id:4,
             title:"問題群",
+            empty:true,
             items: [{ id: 1, title: "問題A" }, { id: 2, title: "問題B" }, { id: 3, title: "問題C" }]
           }
         ]}>
+        <Button click={submit}>
+          送信
+        </Button>
         </Boxes>
       </div>
     );

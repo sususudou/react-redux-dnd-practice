@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react'
 import {Item} from '../atoms/Item'
 import {store} from '../../reducers/index'
 import {dragEnter,dragLeave} from '../../actions/BoxesAction'

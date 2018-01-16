@@ -10,4 +10,5 @@ export const Item = (props) => {
             onDragStart={(event)=>{store.dispatch(dragStart(props.id,props.children))}}
             onDragEnd={(event) => { store.dispatch(dragEnd()) }}>
             <span>{props.children}</span>
-        </div>)};
+        </div>)
+    };
