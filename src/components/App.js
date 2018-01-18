@@ -22,7 +22,10 @@ class App extends Component {
             id:4,
             title:"問題群",
             empty:true,
-            items: [{ id: 1, title: "問題A" }, { id: 2, title: "問題B" }, { id: 3, title: "問題C" }]
+            items: [
+              { id: 1, title: "問題A" },
+              { id: 2, title: "問題B" },
+              { id: 3, title: "問題C" }]
           }
         ]}>
         <Button click={submit}>
